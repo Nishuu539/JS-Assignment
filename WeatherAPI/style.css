@@ -1,0 +1,62 @@
+body{
+    background-image: url(./images/nature.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    margin-top: 25px;
+    text-align: center;
+    color:rgb(17, 9, 126);
+    /* font-style: italic; */
+}
+
+.user{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-around;
+}
+#userInput{
+    height: 34px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+button{
+    width: 26%;
+    border-radius: 6px;
+    background-color: whitesmoke;
+}
+.container{
+    width: 60%;
+    /* background-color: #e7e7e7; */
+    height: 90px;
+    padding-top: 90px;
+    margin: auto;
+    /* border: 2px solid darkblue; */
+    /* display: flex;  */
+}
+.result{
+    padding-top: 5px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    height: 230px;
+    width: 60%;
+    margin: auto;
+    background-color: rgb(36, 104, 131);
+    /* border: 2px solid black; */
+    text-align: center;
+    opacity: 80%;
+}
+    
+    /* justify-content: center;
+    align-items: center;
+}; */ */
+
+
+
+

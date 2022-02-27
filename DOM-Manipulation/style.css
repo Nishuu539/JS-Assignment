@@ -1,0 +1,89 @@
+.container{
+    width: 50%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+form{
+    /* margin-top: 25px; */
+    padding-top: 25px;
+    width: 80%;
+    margin: auto;
+     /* background-color: blueviolet;  */
+    height: 380px;
+}
+.form div{
+    /* border: 2px solid crimson; */
+    display: flex;
+    /* justify-content: space-around; */
+    height: 40px;
+    margin-bottom: 15px;
+}
+.form div label{
+    width: 30%;
+    /* background-color: brown; */
+    font-size: 25px;
+    margin-left: 25px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.form div input{
+    width: 50%;
+    /* border: 2px solid whitesmoke; */
+    border-radius: 6px;
+    box-shadow: 1px 1.5px lightgrey;
+}
+form button{
+    /* padding-top:60px ; */
+    /* margin-top: 50px; */
+    width: 20%;
+    background-color: lightgreen;
+    margin: auto;
+    height: 41px;
+    border-radius: 9px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: 2px 2px lightslategray;
+}
+.details{
+    width: 50%;
+    margin: auto;
+    /* background-color: lightcoral; */
+}
+.employeeData table{
+    margin-top: 15px;
+    width: 100%;
+    /* height: 50px; */
+    /* background-color: lightslategray; */
+    /* border-radius: 9px; */
+}
+table,th,td{
+    border-collapse: collapse;
+    /* border-radius: 9px; */
+}
+#table{
+    background-color: rgb(194, 194, 102);
+}
+td{
+    border: 1px solid black;
+    /* border-radius: 5px; */
+    /* background-color: brown; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+th{
+    background-color: rgb(221, 101, 101);
+    border: 1px solid black;
+}
+#deleteBtn{
+    background-color: rgb(216, 15, 15);
+    
+    border-radius: 6px;
+    font-weight: bold;
+    height: 35px;
+    width: 73px;
+}

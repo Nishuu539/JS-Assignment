@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta naame="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom-Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>
+            <center>Employee Registration Form</center>
+        </h2>
+        <div class="form">
+            <form action="">
+                <div><label for="naame"> Name:</label>
+                    <input type="text" id="naame" placeholder="Enter Your naame" required><br>
+                </div>
+                <div>
+                    <label for="role"> Job Role:</label>
+                    <input type="text" id="role" placeholder="Job/Title" required><br>
+                </div>
+                <div>
+                    <label for="city"> City:</label>
+                    <input type="text" id="city" placeholder="Where do you live?" required><br>
+                </div>
+                <div>
+                    <label for="mobile"> Contact No:</label>
+                    <input type="number" id="number" placeholder="Enter your Contact No." required><br>
+                </div>
+                <div>
+                    <label for="email"> Email:</label>
+                    <input type="email" id="email" placeholder="Enter Your Email Id" required><br>
+                </div>
+                <div class="button"><button id="submitBtn">Submit</button></div>
+
+            </form>
+        </div>
+    </div>
+    <div class="details">
+
+
+        <div class="employeeData">
+            <table border="px">
+                <tr>
+                    <th>Name</th>
+                    <th>Job Role</th>
+                    <th>City</th>
+                    <th>Contact No:</th>
+                    <th>Email</th>
+                </tr>
+
+            </table>
+            <table id="table" border="px">
+
+
+            </table>
+        </div>
+    </div>
+    <script src="app2.js">
+
+    </script>
+
+
+</html>
