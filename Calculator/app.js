@@ -1,4 +1,4 @@
-let display = document.getElementById('display');
+let display = document.getElementById('screen');
 let buttons = Array.from(document.getElementsByClassName('button'));
 
 buttons.map( button => {
